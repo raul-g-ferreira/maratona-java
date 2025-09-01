@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Eblovcosincializacao.test;
+package academy.devdojo.maratonajava.javacore.Eblocosincializacao.test;
 
 
-import academy.devdojo.maratonajava.javacore.Eblovcosincializacao.dominio.Anime;
+import academy.devdojo.maratonajava.javacore.Eblocosincializacao.dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {

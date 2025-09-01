@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Eblovcosincializacao.dominio;
+package academy.devdojo.maratonajava.javacore.Eblocosincializacao.dominio;
 
 public class Anime {
     private String nome;
