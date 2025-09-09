@@ -1,7 +1,12 @@
 package academy.devdojo.maratonajava.javacore.HHeranca.dominio;
 
 public class Funcionario extends Pessoa {
+
     private double salario;
+
+    public Funcionario(String nome) {
+        super(nome);
+    }
 
     public void imprime(){
         super.imprime();
