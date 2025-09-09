@@ -11,6 +11,7 @@ public class Anime {
      * 3 - Bloco de inicializacão é executado
      * 4 - Construtor é executado
      */
+
     static {
         System.out.println("Dentro do bloco de inicialização estático1");
         episodios = new int[100];
