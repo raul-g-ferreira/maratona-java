@@ -4,6 +4,11 @@ public class Endereco {
     private String rua;
     private String cep;
 
+    public void imprime(){
+        Pessoa p = new Pessoa();
+        p.nome = "João";
+    }
+
     public String getRua() {
         return rua;
     }
