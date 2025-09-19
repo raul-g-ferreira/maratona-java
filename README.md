@@ -22,5 +22,13 @@ ___
 ## Polimorfismo
 
 ## Exceções
+Exception e Error são classes filhas de Throwable
 #### Error
 O sistema para de executar, não pode ser resolvido em tempo de execução
+
+#### Exception
+Dois Tipos:
+- Checked
+    - Filhas diretas da classe Exception. São exceções que se não forem tratadas vão lançar um erro em tempo de compilação 
+- Unchecked
+    - Filhas da classe RuntimeException. Costumam ser culpa do animal que tá programando
