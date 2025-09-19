@@ -20,3 +20,7 @@ public interface DataLoader {
 
 ___
 ## Polimorfismo
+
+## Exceções
+#### Error
+O sistema para de executar, não pode ser resolvido em tempo de execução
