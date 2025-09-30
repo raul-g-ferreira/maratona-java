@@ -37,3 +37,16 @@ Dois Tipos:
 #### String
 - São imutáveis
 - Cuidado ao criar outra string igual, coisas estranhas podem acontecer
+##### Métodos
+- .charAt(pos)
+    - devolve o char na posição (pos) passada como argumento
+- .length()
+    - retorna o length da string
+- .replace(x, y)
+    - Percorre a string e troca todos os que forem iguais a (x) por (y)
+- .toUpperCase() & .toLowerCase()
+    
+- .substring(inicio) / (inicio, fim)
+    - É igual às substrings do python
+- .trim()
+    - Remove os espaços em branco no início e no fim do conteúdo
