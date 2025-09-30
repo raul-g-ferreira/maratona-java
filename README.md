@@ -32,3 +32,8 @@ Dois Tipos:
     - Filhas diretas da classe Exception. São exceções que se não forem tratadas vão lançar um erro em tempo de compilação 
 - Unchecked
     - Filhas da classe RuntimeException. Costumam ser culpa do animal que tá programando
+  
+## Classes Utilitárias
+#### String
+- São imutáveis
+- Cuidado ao criar outra string igual, coisas estranhas podem acontecer
