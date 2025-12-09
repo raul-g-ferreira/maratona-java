@@ -19,7 +19,7 @@ public class PathMatcherTest01 {
         matches(path3, "glob:**/f ile.????");
     }
 
-    private static void matches(Path path, String glob){
+    static void matches(Path path, String glob){
         PathMatcher matcher = FileSystems.getDefault().getPathMatcher(glob);
         System.out.println(glob + ": "+ matcher.matches(path));
     }
