@@ -1,20 +1,37 @@
 package academy.devdojo.maratonajava.javacore.Ycolecoes.dominio;
 
 public class Smartphone {
-    private String seialNumber;
+    private String serialNumber;
     private String marca;
 
-    public Smartphone(String seialNumber, String marca) {
-        this.seialNumber = seialNumber;
+    public Smartphone(String serialNumber, String marca) {
+        this.serialNumber = serialNumber;
         this.marca = marca;
     }
 
-    public String getSeialNumber() {
-        return seialNumber;
+    /*
+    O método .equals() deve ser:
+         Reflexivo
+         Simétrico
+         Transitivo
+         Consistente = x.equals(x) sempre retorna true se x for diferente de null
+         Para x diferente de null x.equals(null) sempre retornará false
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) return false;// se obj é null
+        if (this == obj) return true;// se for o msm objeto
+        if (this.getClass() != obj.getClass()) return false; // se os objetos forem de classes diferentes
+        Smartphone smartphone = (Smartphone) obj;
+        return serialNumber != null && serialNumber.equals(smartphone.serialNumber);
     }
 
-    public void setSeialNumber(String seialNumber) {
-        this.seialNumber = seialNumber;
+    public String getSeialNumber() {
+        return serialNumber;
+    }
+
+    public void setSeialNumber(String serialNumber) {
+        this.serialNumber = serialNumber;
     }
 
     public String getMarca() {
